@@ -1,0 +1,127 @@
+/**
+dark green: #ccd5ae
+light green: #e9edc9
+cream: #fefae0
+light brown: #faedcd
+dark brown: #d4a373
+very dark brown: #43270f
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 25px;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/seattle-2.jpg");
+    background-size: cover;
+    padding: 50px 50px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.activities-section {
+    background: #e9edc9;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 4px;
+
+}
+.activities {
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-around;
+}
+
+.fun-stuff {
+    width: 200px;
+}
+
+.fun-stuff-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 30%;
+}
+
+.guide-section {
+    background: linear-gradient(#e9edc9 5%, #faedcd 70%); 
+    margin-top: -1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+.guide {
+    border-radius: 20px;
+    background: #faedcd;
+    margin: 20px auto;
+    width: 350px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d4a373; 
+}
+
+
+.guide p {
+    font-style: italic;
+    padding-right: 35px;
+}
+
+.guide h4 {
+    font-size: 18px;
+}
+
+.guide:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;    
+}
+
+.footer {
+    background: #ccd5ae;
+    padding: 40px;
+}
+
+.btn {
+    font-family: "Lato", sans-serif;
+    padding: 10px 20px;
+    background: #fefae0;
+    border: 1px solid #fefae0;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #43270f;
+    text-decoration: underline wavy #43270f;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+.btn:hover{
+    background: #43270f;
+    border: 1px solid #43270f;
+    color: #fefae0;
+    text-decoration: underline wavy #fefae0;
+}
