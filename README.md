@@ -2,7 +2,6 @@
 a simple travel guide page for Seattle built with HTML and CSS. it features top things to do in the city, a short guide intro with a photo, and a call to action. the content is personal too since i actually moved to Seattle from Bangkok and have been exploring it for the past year (2024-2025)
 
 **tech stack:** HTML, CSS
-
 **live site:** visit-seattle.netlify.app
 
 thanks for stopping by :)
